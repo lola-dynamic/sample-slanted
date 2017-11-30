@@ -1,142 +1,234 @@
-body{
-	background: #E5E5E5;
-	font-family: 'Catamaran', sans-serif;
-	overflow: auto;
+body {
+  background: #e5e5e5;
+  font-family: "Catamaran", sans-serif;
+  overflow: auto;
+}
+.title {
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
-h1{
-	color: #ffffff;
-	font-weight: bold;
-	font-size: 20px;
+#wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-h2{
-	text-align: center;
-	color: #ffffff;
-	padding: 5%;
-}
-h3{
-	text-align: center;
-	color: #ffffff;
-	padding: 5%;
-	letter-spacing: 20%;
-}
-
-h4{
-	text-align: center;
-	color: red;
-	padding: 5%;
-}
-p{
-	text-align: center;
-	padding: 2%;
-	color: #000000;
-}
-.container p{
-	margin-bottom: 150px;
-}
-.title{
-	margin-top: 5%;
-	margin-left: 10%;
+.container {
+  max-width: 100%;
+  width: 100%;
+  height: 478px;
+  background: #eb5757;
+  background: -webkit-linear-gradient(#eb5757, #d59152);
+  background: -o-linear-gradient(#eb5757, #d59152);
+  background: -moz-linear-gradient(#eb5757, #d59152);
+  background: linear-gradient(#eb5757, #d59152);
+  position: relative;
 }
 
-img{
-	text-align: center;
-	max-width: 100%;
-	height: auto;
-	width: auto;
+.container p {
+  margin-bottom: 150px;
 }
 
-#wrapper{
-	margin: 0 auto;
-	max-width: 1440px;
-	width: 80%;
-	background: #ffffff;
-	border: 1px solid #ffdb4a;
+header {
+  padding-left: 50px;
+  position: relative;
 }
-.container{
-	max-width: 100%;
-	width: 100%;
-	background: #EB5757;
-    background: -webkit-linear-gradient(#EB5757, #D59152);
-    background: -o-linear-gradient(#EB5757, #D59152);
-    background: -moz-linear-gradient(#EB5757, #D59152);
-    background: linear-gradient(#EB5757, #D59152);
-    position: relative;
+span {
+  color: #ffffff;
 }
-
-header{
-	padding-left: 50px;
+.fa-plane {
+  padding: 2%;
 }
-span{
-	color: #ffffff;
+nav {
+	position: absolute; 
+	 top: 0;
+	 left: 500px; 
+	 display: none;
 }
-.fa-plane{
-	padding: 2%;
-	
+nav ul {
+  list-style: none;
 }
-nav ul{
-	list-style: none;
-	padding-left: 300px;
-	margin: 0;
+nav ul li {
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
 }
-nav ul li{
-	float: left;
-	width: 15%;
-	font-weight: bold;
+nav ul li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 2% 8%;
 }
-nav ul li a{
-	color: #ffffff;
-	display: block;
-	text-decoration: none;
-	padding: 2% 8%; 
-}
-.linkBtn{
-	text-align: center;
-	font-size: 14px;
-	width: 160px;
-	height: 50px;
-	border: 0;
-	float: right;
-	margin-right: 7%;
-	background: rgba(255, 255, 255, 0.2);
-	border-radius: 25px; 
-	position: absolute;
-	top: 25%;
-	left: 75%;
+.linkBtn {
+  text-align: center;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  border: 0;
+  float: right;
+  margin-right: 7%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  position: absolute;
+  top: 25%;
+  left: 75%;
 }
 
-button a{
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+form input {
+  background: #ffffff;
+  border: 3px solid #f2994a;
+  text-align: inside;
+  width: 500px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  position: absolute;
+  top: 91%;
+  left: 32%;
+  font-size: 18px;  
+}
+.clearfix {
+  clear: both;
+}
+
+.context {
 	color: #ffffff;
-	text-decoration: none;
 }
-form input{  
-	background: #ffffff;
-	border: 3px solid #F2994A;
-	text-align: inside;
-	width: 500px;
-	height: 80px;
-	border-radius: 40px;
-	text-align: center;
-	position: absolute;
-	top: 70%;
-	left: 32%;
-	
+
+.context h2 {
+	font-size: 50px;
+	font-weight: bolder;
 }
-.clearfix{
-	clear: both;
+.content {
+  width: 58%;
+  margin-top: 100px;
 }
-.content{
-	width: 58%;
+.content h3 {
+  color: #c3c0c0;
+}
+.section {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+  position: relative;
+}
+
+.imageHolder {
+  height: 350px;
+  width: 400px;
+}
+
+.imageCaption {
+  position: absolute;
+  top: 52%;
+  line-height: 10px;
+}
+
+.imageCaption h2 {
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.imageCaption p {
+  color: #f2994a;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 20px;
+}
+
+img {
+  /* text-align: center; */
+  max-width: 100%;
+  height: auto;
+}
+
+.seeMoreBtn {
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
+  color: #f2994a;
+  border-color: #f2994a;
+}
+
+.hanginOutSection {
+	height: 400px; 
 	margin-top: 100px;
-}
-.content h3{
-	color: #C3C0C0;
-}
-.section{
-	width: 29%;
-	float: left;
-	margin: 2% 2%;
-	text-align: center;
 	
+	/* position: absolute; */
+    /* bottom: -300px; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%);
+   /*width: 1440px; */
+  /* width: 1200px; */
+    /* background: #000;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);
+    display: flex; */
 }
 
+.hangingOut {
+	 width: 40%;
+	 float: left;
+	 height: 400px;
+	 padding-left: 130px;
+	 padding-top: 130px;
+	background: #eb5757;
+	background: -webkit-linear-gradient(#eb5757, #d59152);
+	background: -o-linear-gradient(#eb5757, #d59152);
+	background: -moz-linear-gradient(#eb5757, #d59152);
+	background: linear-gradient(#eb5757, #d59152);
+    box-sizing: border-box; 
+}
+
+.hangingOut p {
+	color: #febe61;
+}
+
+.hangingOut h2 {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.imageBox {
+	width: 60%;
+	height: 100%;
+	float: left;
+	background:url('../images/mosque.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+    box-sizing: border-box;
+	
+	/* border-left: 100px solid #eb5757; */
+
+    /* border-bottom: 400px solid transparent;*/
+}
+
+footer {
+  height: 100px;
+  line-height: 100px;
+}
+
+.terms {
+  float: left;
+  padding-left: 40px;
+  color: #a9a9a9;
+  font-weight: 500;
+}
+
+.copyright {
+  float: right;
+  padding-right: 40px;
+  color: #a9a9a9;
+  font-weight: 500;
+}
